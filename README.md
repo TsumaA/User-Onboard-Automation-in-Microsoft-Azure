@@ -191,15 +191,11 @@ This Azure User Onboarding Automation solution streamlines the employee onboardi
 
 The solution leverages Microsoft's native tools (Forms, Power Automate, Azure AD) to create a seamless, zero-code automation that reduces IT workload while maintaining security standards. Perfect for organizations looking to modernize their employee onboarding workflow without complex custom development.
 
-## 🌟 Show Your Support
-
-Give a ⭐️ if this project helped you!
 
 ---
 
 <div align="center">
 
-**Made with ❤️ by [Abraham Tsuma](https://github.com/TsumaA)**
 
 [🔝 Back to top](#azure-user-onboarding-automation)
 
