@@ -1,4 +1,3 @@
-# User-Onboard-Automation-in-Microsoft-Azure
 # Azure User Onboarding Automation
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -177,35 +176,16 @@ Scaling Considerations:
   - Integration with existing IAM systems
 ```
 
-## 🤝 Contributing
+## 📖 Project Summary
 
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+This Azure User Onboarding Automation solution streamlines the employee onboarding process by eliminating manual account creation tasks. When a new employee fills out the Microsoft Form, the system automatically:
 
-**Quick Contribution Steps:**
-1. 🍴 Fork the repository
-2. 🌟 Create a feature branch  
-3. 💻 Make your changes
-4. 📚 Update documentation
-5. 🔄 Submit a pull request
+- **Creates** a disabled Azure AD user account with all provided details
+- **Assigns** the user to the appropriate security group based on their department
+- **Enforces** security best practices with disabled accounts requiring manual activation
+- **Maintains** an audit trail of all onboarding activities
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Microsoft Azure team for excellent documentation
-- Power Platform community for best practices
-- All contributors and testers
-
-## 📞 Support
-
-Need help? Here's how to get support:
-
-1. 📖 Check the [troubleshooting section](#-troubleshooting)
-2. 🔍 Search existing [issues](../../issues)
-3. 🆕 Create a [new issue](../../issues/new) with detailed information
-4. 💬 Join our [discussions](../../discussions)
+The solution leverages Microsoft's native tools (Forms, Power Automate, Azure AD) to create a seamless, zero-code automation that reduces IT workload while maintaining security standards. Perfect for organizations looking to modernize their employee onboarding workflow without complex custom development.
 
 ## 🌟 Show Your Support
 
@@ -215,7 +195,7 @@ Give a ⭐️ if this project helped you!
 
 <div align="center">
 
-**Made with ❤️ by [Abraham Tsuma](https://github.com/yourusername)**
+**Made with ❤️ by [Abraham Tsuma](https://github.com/TsumaA)**
 
 [🔝 Back to top](#azure-user-onboarding-automation)
 
