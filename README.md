@@ -65,6 +65,7 @@ Dynamic Query:
   Operator: Equals
   Value: "help desk"
 ```
+![1](https://github.com/user-attachments/assets/457dd98e-43f3-41ac-8049-45927eda4e0e)
 
 ### Step 2: Create Microsoft Form
 
@@ -77,6 +78,8 @@ Open **Microsoft Forms** and create: **"Employee Onboarding Form"**
 - ✅ Email Address (Text)
 - ✅ Department (Choice)
 - ✅ Form Rating (Rating)
+
+![33](https://github.com/user-attachments/assets/588de468-1a61-400d-b1f3-dd76abeb554f)
 
 > Make all questions mandatory before saving
 
@@ -108,6 +111,7 @@ Action 2 - Create User:
     User Principal Name: [Email Address]
     Department: [Form Response]
 ```
+![555](https://github.com/user-attachments/assets/189ef2d1-3771-482d-9b86-ff457d1339b5)
 
 ## 🧪 Testing
 
