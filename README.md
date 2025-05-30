@@ -28,16 +28,26 @@ Before you begin, ensure you have:
 
 ## 🏗️ Architecture
 
+### System Overview
+
 ```mermaid
-graph LR
-    A[Microsoft Forms] --> B[Power Automate]
-    B --> C[Azure AD]
-    C --> D[Security Groups]
+flowchart TD
+    A[👤 New Employee] --> B[📝 Microsoft FormsOnboarding Form]
+    B --> C[⚡ Power AutomateTrigger: Form Submitted]
+    C --> D[📋 Get Form ResponseExtract Employee Data]
+    D --> E[👥 Create User AccountAzure AD/Entra ID]
+    E --> F[🔒 Account CreatedStatus: Disabled]
+    F --> G[🏷️ Auto-assign to GroupBased on Department]
+    G --> H[✅ Onboarding CompleteReady for Manual Activation]
     
-    style A fill:#e1f5fe
-    style B fill:#f3e5f5
-    style C fill:#e8f5e8
-    style D fill:#fff3e0
+    style A fill:#1976d2,stroke:#0d47a1,stroke-width:2px,color:#fff
+    style B fill:#7b1fa2,stroke:#4a148c,stroke-width:2px,color:#fff
+    style C fill:#388e3c,stroke:#1b5e20,stroke-width:2px,color:#fff
+    style D fill:#f57c00,stroke:#e65100,stroke-width:2px,color:#fff
+    style E fill:#c2185b,stroke:#880e4f,stroke-width:2px,color:#fff
+    style F fill:#d32f2f,stroke:#b71c1c,stroke-width:2px,color:#fff
+    style G fill:#00796b,stroke:#004d40,stroke-width:2px,color:#fff
+    style H fill:#689f38,stroke:#33691e,stroke-width:2px,color:#fff
 ```
 
 **Workflow:**
