@@ -207,6 +207,5 @@ The solution leverages Microsoft's native tools (Forms, Power Automate, Azure AD
 <div align="center">
 
 
-[🔝 Back to top](#azure-user-onboarding-automation)
 
 </div>
